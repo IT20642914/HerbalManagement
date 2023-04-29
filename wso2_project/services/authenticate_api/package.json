@@ -1,0 +1,23 @@
+{
+  "name": "authenticate_api",
+  "version": "1.0.0",
+  "description": "This is user managemnt service api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WSO2",
+    "Node.js"
+  ],
+  "author": "Chathini",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.5",
+    "nodemon": "^2.0.22"
+  }
+}
