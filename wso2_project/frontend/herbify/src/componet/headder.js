@@ -218,7 +218,7 @@ function Header({ login, cart, user_logout }) {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static" style={{ background: '#38b000' }}>
+      <AppBar position="static" style={{ marginBottom:"2rem",background:  `linear-gradient(to bottom, #037e2c 0%, #02b302 100%)`}}>
         <Toolbar>
           <IconButton
             edge="start"

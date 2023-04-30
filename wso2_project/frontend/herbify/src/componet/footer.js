@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     const classes = useStyles();
     return (
       //className={classes.footer}
-      <footer style={{ background: '#38b000' }}>
+      <footer style={{ background:  `linear-gradient(to bottom, #037e2c 0%, #02b302 100%)` }}>
         <Typography variant="h6" align="center" gutterBottom style={{ color : '#fff' }}>
           Herbify Herble Mart
         </Typography>
