@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/payment" name="payment" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" uri-template="/updatePayemntStatus">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to payment service"/>
+            </log>
+            <send>
+                <endpoint key="updatePayemntStatus"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/cashOnDelivary">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to payment service"/>
+            </log>
+            <send>
+                <endpoint key="cashOnDelivary"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

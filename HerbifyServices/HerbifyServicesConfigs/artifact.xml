@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="products" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/products.xml</file>
+    </artifact>
+    <artifact name="getAllProductInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getAllProductInfo.xml</file>
+    </artifact>
+    <artifact name="addProductInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addProductInfo.xml</file>
+    </artifact>
+    <artifact name="updateProductInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updateProductInfo.xml</file>
+    </artifact>
+    <artifact name="removeProductInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/removeProductInfo.xml</file>
+    </artifact>
+    <artifact name="getSelectedProductInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getSelectedProductInfo.xml</file>
+    </artifact>
+    <artifact name="users" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/users.xml</file>
+    </artifact>
+    <artifact name="getAllAdminInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getAllAdminInfo.xml</file>
+    </artifact>
+    <artifact name="addAdminInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addAdminInfo.xml</file>
+    </artifact>
+    <artifact name="updateAdminInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updateAdminInfo.xml</file>
+    </artifact>
+    <artifact name="removeAdminInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/removeAdminInfo.xml</file>
+    </artifact>
+    <artifact name="getAllSellerInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getAllSellerInfo.xml</file>
+    </artifact>
+    <artifact name="addSellerInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addSellerInfo.xml</file>
+    </artifact>
+    <artifact name="updateSellerInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updateSellerInfo.xml</file>
+    </artifact>
+    <artifact name="removeSellerInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/removeSellerInfo.xml</file>
+    </artifact>
+    <artifact name="getAllByerInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getAllByerInfo.xml</file>
+    </artifact>
+    <artifact name="addBuyerInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addBuyerInfo.xml</file>
+    </artifact>
+    <artifact name="updateBuyerInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updateBuyerInfo.xml</file>
+    </artifact>
+    <artifact name="removeBuyerInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/removeBuyerInfo.xml</file>
+    </artifact>
+    <artifact name="orders" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/orders.xml</file>
+    </artifact>
+    <artifact name="getAllOrderInfoList" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getAllOrderInfoList.xml</file>
+    </artifact>
+    <artifact name="getSelectedOrderInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getSelectedOrderInfo.xml</file>
+    </artifact>
+    <artifact name="addOrderInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addOrderInfo.xml</file>
+    </artifact>
+    <artifact name="updateOrderDelivaryInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updateOrderDelivaryInfo.xml</file>
+    </artifact>
+    <artifact name="cart" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/cart.xml</file>
+    </artifact>
+    <artifact name="getCartInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getCartInfo.xml</file>
+    </artifact>
+    <artifact name="addCartInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addCartInfo.xml</file>
+    </artifact>
+    <artifact name="updateCartItemInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updateCartItemInfo.xml</file>
+    </artifact>
+    <artifact name="payment" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/payment.xml</file>
+    </artifact>
+    <artifact name="updatePayemntStatus" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updatePayemntStatus.xml</file>
+    </artifact>
+    <artifact name="cashOnDelivary" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/cashOnDelivary.xml</file>
+    </artifact>
+    <artifact name="delivary" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/delivary.xml</file>
+    </artifact>
+    <artifact name="getAllDelivaryInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getAllDelivaryInfo.xml</file>
+    </artifact>
+    <artifact name="addDelivaryInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/addDelivaryInfo.xml</file>
+    </artifact>
+    <artifact name="updateDelivaryInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/updateDelivaryInfo.xml</file>
+    </artifact>
+    <artifact name="removeDelivaryInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/removeDelivaryInfo.xml</file>
+    </artifact>
+    <artifact name="getSelectedDelivaryInfo" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/getSelectedDelivaryInfo.xml</file>
+    </artifact>
+</artifacts>

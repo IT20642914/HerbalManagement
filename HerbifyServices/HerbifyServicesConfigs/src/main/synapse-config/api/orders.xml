@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/orders" name="orders" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/getAllOrderInfoList">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to order service"/>
+            </log>
+            <send>
+                <endpoint key="getAllOrderInfoList"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/getSelectedOrderInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to order service"/>
+            </log>
+            <send>
+                <endpoint key="getSelectedOrderInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/addOrderInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to order service"/>
+            </log>
+            <send>
+                <endpoint key="addOrderInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/updateDelivaryInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to order service"/>
+            </log>
+            <send>
+                <endpoint key="updateOrderDelivaryInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

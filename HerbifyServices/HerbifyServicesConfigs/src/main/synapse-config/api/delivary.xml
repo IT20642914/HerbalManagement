@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/delivary" name="delivary" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/getAllDelivaryInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to Delivary Service"/>
+            </log>
+            <send>
+                <endpoint key="getAllDelivaryInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/addDelivaryInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to Delivary Service"/>
+            </log>
+            <send>
+                <endpoint key="addDelivaryInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="PUT" uri-template="/updateDelivaryInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to Delivary Service"/>
+            </log>
+            <send>
+                <endpoint key="updateDelivaryInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" uri-template="/removeDelivaryInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to Delivary Service"/>
+            </log>
+            <send>
+                <endpoint key="removeDelivaryInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/getSelectedDelivaryInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to Delivary Service"/>
+            </log>
+            <send>
+                <endpoint key="getSelectedDelivaryInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

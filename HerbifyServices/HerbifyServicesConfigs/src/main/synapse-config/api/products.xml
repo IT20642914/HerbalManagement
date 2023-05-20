@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/products" name="products" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/getProductInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="welcome to product service"/>
+            </log>
+            <send>
+                <endpoint key="getAllProductInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/addProductInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="welcome to product service"/>
+            </log>
+            <send>
+                <endpoint key="addProductInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="PUT" uri-template="/updateProductInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="welcome to product service"/>
+            </log>
+            <send>
+                <endpoint key="updateProductInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" uri-template="/removeProductInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="welcome to product service"/>
+            </log>
+            <send>
+                <endpoint key="removeProductInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/getSelectedProductInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="welcome to product service"/>
+            </log>
+            <send>
+                <endpoint key="getSelectedProductInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

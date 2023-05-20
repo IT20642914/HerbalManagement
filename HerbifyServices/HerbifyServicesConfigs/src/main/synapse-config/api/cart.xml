@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/cart" name="cart" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" uri-template="/getCartInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to cart service"/>
+            </log>
+            <send>
+                <endpoint key="getCartInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/addCartInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to cart service"/>
+            </log>
+            <send>
+                <endpoint key="addCartInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/updateCartItemsInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welcome to cart service"/>
+            </log>
+            <send>
+                <endpoint key="updateCartItemInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

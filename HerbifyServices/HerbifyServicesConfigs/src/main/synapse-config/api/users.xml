@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/users" name="users" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/getAllAdminInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="getAllAdminInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/addAdminInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="addAdminInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="PUT" uri-template="/updateAdminInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="updateAdminInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" uri-template="/deleteAdminInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="removeAdminInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" uri-template="/getAllSellerInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="getAllSellerInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/addSellerInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="addSellerInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="PUT" uri-template="/updateSellerInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="updateSellerInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" uri-template="/deleteSellerInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="removeSellerInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" uri-template="/getAllBuyerInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="getAllByerInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/addBuyerInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="addBuyerInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST" uri-template="/updateBuyerInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="updateBuyerInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+    <resource methods="DELETE" uri-template="/deleteBuyerInfo">
+        <inSequence>
+            <log>
+                <property name="info" value="Welocome to User service"/>
+            </log>
+            <send>
+                <endpoint key="removeBuyerInfo"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>
